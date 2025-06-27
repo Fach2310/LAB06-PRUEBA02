@@ -53,7 +53,7 @@ public class ShoppingCartTest {
     }
     
     @Test
-    public void testRemoveProduct() {
+    public void testEliminarProducto() {
         ShoppingCart cart = new ShoppingCart();
         cart.addProduct(10.0);
         cart.addProduct(20.0);
